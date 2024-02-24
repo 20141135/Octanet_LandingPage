@@ -1,0 +1,228 @@
+.container{
+    display: flex;
+}
+.card{
+    padding: 2vw;
+    border: 2px solid rgb(87, 84, 230);
+    margin: 1vw;
+}
+h1, h3{
+    color: rgb(87, 84, 230);
+}
+.navbar {
+    background-color:rgb(13, 73, 240); 
+    padding:2px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navbar a {
+    color: rgb(7, 7, 7);
+    text-decoration: none;
+    margin: 0 5px; 
+    text-align: right;
+}
+
+.navbar a:hover {
+    color:rgb(22, 22, 22)
+}
+.box{
+    width: 50%;
+}
+#about{
+    background-color: azure;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#home {
+    background-color: #f5f3f2;
+    color: rgb(12, 12, 12);
+    text-align: center;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 100%;
+}
+
+section {
+    padding: 20px;
+    text-align: center;
+}
+
+.event-details img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 20px 0;
+}
+
+#home img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 3vw;
+}
+
+.card {
+    padding: 5vw;
+    border: 2px solid rgb(87, 84, 230);
+    margin: 3vw;
+    flex: 1 1 300px; /* Flex item properties */
+    max-width: 400px; /* Maximum width for flex items */
+}
+.card {
+    padding: 5vw;
+    border: 2px solid rgb(87, 84, 230);
+    margin: 2vw;
+    flex: 1 1 calc(70% - 4vw); /* Adjusted flex property for responsiveness */
+    max-width: calc(70% - 4vw); /* Adjusted max-width for responsiveness */
+}
+h1, h3 {
+    color: rgb(87, 84, 230);
+}
+
+
+.navbar {
+    background-color: rgb(87, 84, 230);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; /* Adjusted property to align items to the right */
+}
+
+.navbar a {
+    color: rgb(255, 251, 251);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.navbar a:hover {
+    color: rgb(5, 5, 5);
+}
+
+#about {
+    background-color:#f5f3f2;
+}
+
+#ticket {
+    background-color:#f5f3f2;
+}
+#register {
+    background-color: #f5f3f2;
+}
+
+.location {
+    margin-top: 20px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+.important {
+    margin-top: 20px;
+    font-style: italic;
+    color: #666;
+}
+
+button {
+    background-color: rgb(87, 84, 230); 
+    color: white; 
+    padding: 12px 24px; 
+    font-size: 18px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease; 
+}
+
+button:hover {
+    background-color: #08f828; 
+    color: #131212;
+}
+span{
+    background-color: #131212;
+    color: white;
+}
+#venue{
+    background-color:azure ;
+} 
+
+.free{
+    color: red;
+}
+
+
+
+
+section {
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+nav {
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+footer {
+    margin-top: 5px;
+    padding: 2px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(87, 84, 230);
+    color: white;
+}
+
+.footer-content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin-top: 2px;
+}
+
+.social-links li {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    #home {
+        height: auto; 
+    }
+
+    .box {
+        max-width: 80%; 
+    }
+    .box img{
+        margin-top: 10vw;
+    }
+}
